@@ -1,6 +1,5 @@
 # todos
 
-Alex and Mohamed
 
 Your project this week is to build a to-do list tracker. It should allow users to create, complete and delete tasks from a list.
 
