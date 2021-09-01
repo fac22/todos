@@ -1,0 +1,49 @@
+/* Center Align Elements */
+.center {
+  max-width: 40rem;
+  margin: auto; /* margin-left: auto;
+  margin-right: auto;  margin-top: auto;
+  margin-bottom: auto;
+ */
+}
+
+/* Width */
+.width-sm {
+  max-width: 20rem;
+}
+.width-md {
+  max-width: 50rem;
+}
+.width-lg {
+  max-width: 60rem;
+}
+
+/* STACKS */
+.stack-sm > * + * {
+  margin-top: 0.5rem;
+}
+.stack-md > * + * {
+  margin-top: 1rem;
+}
+.stack-lg > * + * {
+  margin-top: 2rem;
+}
+.stack-xl > * + * {
+  margin-top: 3rem;
+}
+
+/*  */
+.row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.gap-lg {
+  gap: 2rem;
+}
+.gap-xl {
+  gap: 4rem;
+}
+.justify-space-between {
+  justify-content: space-between;
+}
