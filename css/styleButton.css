@@ -27,7 +27,7 @@
 }
 
 /* Add some hover effects to buttons */
-
+#submit-button:hover,
 #remove-button:hover {
   opacity: 1;
   transition: all 2s ease;
