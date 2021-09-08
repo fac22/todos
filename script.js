@@ -8,7 +8,8 @@ document.querySelector("#push").onclick = function () {
                     ${document.querySelector("#newList input").value}
                 </span>
                 <button class="delete">
-                    Delete
+                <img src="https://img.icons8.com/office/16/000000/delete-sign.png"/>
+                
                 </button>
             </div>
         `;

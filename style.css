@@ -121,7 +121,7 @@ body {
   outline: none;
 }
 .completed {
-  text-decoration: line-through;
+  text-decoration: dashed underline overline line-through red;
 }
 
 /*keyframes */
